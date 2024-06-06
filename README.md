@@ -1,4 +1,4 @@
-# ELMo-Tune
+# ELMo-Tune ([HotStorage'24] Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?)
 
 ## Features
 This project will run a series of tests using the db_bench tool.  The tests will be run using the default configuration and a series of configurations that will be determined by the research.  The results of the tests will be compared to determine the best configuration for RocksDB when using GPT Assisted RocksDB.
