@@ -73,7 +73,7 @@ def generate_db_bench_command(db_bench_path, database_path, options, run_count, 
         "--use_direct_io_for_flush_and_compaction",
         "--use_direct_reads", "--compression_type=none",
         "--stats_interval_seconds=1", "--histogram", 
-        f"--num={NUM_ENTRIES}", "--duration=1000"
+        f"--num={NUM_ENTRIES}", "--duration=100"
     ]
 
 
